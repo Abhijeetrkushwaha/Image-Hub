@@ -1,38 +1,51 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+form{
+  padding: 20px 10px 10px;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+input[type=text]:not(.browser-default):focus:not([readonly]),
+input[type=password]:not(.browser-default):focus:not([readonly]),
+input[type=email]:not(.browser-default):focus:not([readonly]),
+textarea:not(.browser-default):focus:not([readonly]){
+    border-color: purple;
+    box-shadow: none;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input[type=text]{
+  color: purple;
+}
+.grid-content{
+  width: 300px;
+  margin:0 0 50px;
+}
+img{
+  width: 100%;
+  height: 325px;
+}
+.link-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.download{
+  margin-left: 5px;
+}
+.download-link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.download-btn{
+  outline: none;
+  border: none;
+  background: none;
+  margin-right: 5px;
+  padding: 5px 10px;
+}
+.search-btn{
+  outline: none;
+  border: none;
+  background: none;
+  margin-right: 5px;
+  padding: 8px 12px 9px;
 }
