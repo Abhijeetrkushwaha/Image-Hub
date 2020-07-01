@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a15cb2e605744d575f38f2456876b76a",
+    "revision": "76979e2180bfbda71caf5d046675c2ef",
     "url": "/Image-Hub/index.html"
   },
   {
-    "revision": "255c149f1e0a7c776ffb",
+    "revision": "dd88b6df51422a9b387c",
     "url": "/Image-Hub/static/css/main.a350accc.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Image-Hub/static/js/2.dc014681.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "255c149f1e0a7c776ffb",
-    "url": "/Image-Hub/static/js/main.986a58d1.chunk.js"
+    "revision": "dd88b6df51422a9b387c",
+    "url": "/Image-Hub/static/js/main.222c9df0.chunk.js"
   },
   {
     "revision": "36e788c3136d6e4ff6dc",
