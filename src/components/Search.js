@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios'
-import { connect } from 'react-redux'
+import { connect } from 'react-redux';
+import { addNewResult } from "../actions/postActions";
 
 class Search extends Component {
   state = {
@@ -71,10 +72,7 @@ class Search extends Component {
 const mapDispatchToProps = (dispatch) => {
   return {
     addNewResult: (result) => {
-      dispatch({
-        type: "ADD_SEARCH_RESULT",
-        result: result,
-      });
+      dispatch(addNewResult(result));
     },
   };
 };

@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import GridSummary from './GridSummary'
 import axios from 'axios'
 import { connect } from 'react-redux'
+import { addResult } from '../actions/postActions'
 
 class Body extends Component {
   componentDidMount() {
@@ -67,10 +68,7 @@ const mapStateToProps = (state) => {
 const mapDispatchToProps = (dispatch) => {
   return {
     addResult: (result) => {
-      dispatch({
-        type: 'ADD_RESULT',
-        result: result,
-      })
+      dispatch(addResult(result))
     }
   }
 }
