@@ -33,6 +33,8 @@ class Body extends Component {
   }
   render() {
     // console.log(this.props.result);
+    // console.log(process.env.REACT_APP_UNPLASH_API);
+    
 
     let data = this.props.result ? (
       this.props.result.map(result => {
