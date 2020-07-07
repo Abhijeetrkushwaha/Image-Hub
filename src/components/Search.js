@@ -25,8 +25,9 @@ class Search extends Component {
           result: res.data.results
         })
       });   
-    this.props.addNewResult(null);
+    
     if(this.state.search){
+      this.props.addNewResult(null);
       axios
         .get(
           `https://api.unsplash.com/search/photos?page=1&per_page=15&query=${this.state.search}&client_id=${process.env.REACT_APP_UNPLASH_API}`
